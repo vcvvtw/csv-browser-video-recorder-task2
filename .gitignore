@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# SQLite database files
+videos.db
+videos.db-wal
+videos.db-shm
+
+# Server uploads (recreated on run)
+uploads/
+
+# Intermediate Playwright video chunks
+video/page@*.webm
+
+# IDE / OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
